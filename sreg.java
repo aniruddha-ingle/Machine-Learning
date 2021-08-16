@@ -106,7 +106,8 @@ class sreg
 		double result = multiplyMatrices(w,x,n);
 		System.out.println("Resultant Value is:\t"+result);
 	}
-	//Utilities 
+	//Utilities
+	//the logic for matrix multiplication and inversion was understood froum sanfoundary
 	 public static double[][] invert(double a[][]) 
     {
         int n = a.length;
@@ -204,4 +205,3 @@ class sreg
         return product;
     }
 }
-//the functionality for matrix multiplication and inversion was borrowed from sanfoundary, in the future it will be replace by original code
