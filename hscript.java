@@ -42,7 +42,7 @@ class hscript
 	{
 		hscript hs = new hscript();
 		
-		File fp = new File("hyt.txt");
+		File fp = new File("hscript.txt");
 		BufferedReader bfr = new BufferedReader(new FileReader(fp));	
 		String [] arrOfStr;
 		String numBuf;
