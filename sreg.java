@@ -9,7 +9,7 @@ class sreg
 	}
 	public void proc() throws IOException{
 		sreg ks = new sreg();
-		File fp = new File("reg.txt");
+		File fp = new File("sreg.txt");
 		BufferedReader bfr = new BufferedReader(new FileReader(fp));
 		String [] arrOfStr;
 		String in;
